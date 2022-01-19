@@ -1,5 +1,13 @@
 # q-app
+## Overview
+Vue CLI used to generate the Vue 3 app. 
+- Typescript
+- Vue Router
+- Custom store implementation with actions
+- Basic unit test provided
+- Bootstrap grid used for layout purposes - custom SCSS(BEM style) done within component scope.
 
+Time spent: ``~9h.``
 ## Project setup
 ```
 npm install
