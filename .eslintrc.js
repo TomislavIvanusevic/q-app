@@ -14,6 +14,9 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'max-len': ['error', 140],
+    'max-classes-per-file': 'off',
+    "typescript-eslint/explicit-function-return-type": "off",
   },
   overrides: [
     {
